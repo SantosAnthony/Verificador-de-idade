@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>verificador de idade </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="js.js"></script>
+    <link rel="shortcut icon" href="..\favicon\Design sem nome.png" type="image/x-icon">
+     
+</head>
+<body>
+    <header>
+        <h1>Verificador de idade</h1>
+    </header>
+    <main>
+        <section id="formulario">
+            <form action="">
+                <p>Ano de Nascimento: <input type="number" id="nascimento" autocomplete="off
+                " maxlength="20" required></p>
+
+                
+                <p>Sexo:<span>
+                    <input type="radio" name="sexo" id="f" required><label for="f">Feminino</label>
+                     <input type="radio" name="sexo" id="m"><label for="m">Maculino</label>
+                </span><br>
+
+                <div class="botao">
+                    <input type="button" id="ibuton" value="Verificar" onclick="verificar()">
+                </div>
+
+            </form>
+        </section>
+            
+        <section id="resultado">
+            <output id="res">
+            </output>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; Anthony silva</p>
+    </footer>
+</body>
+</html>
